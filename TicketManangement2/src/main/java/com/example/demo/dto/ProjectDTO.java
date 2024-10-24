@@ -1,5 +1,9 @@
 package com.example.demo.dto;
 
-public class ProjectDTO {
+import lombok.Data;
 
+@Data
+public class ProjectDTO 
+{
+	
 }
