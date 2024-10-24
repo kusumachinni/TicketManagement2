@@ -1,9 +1,8 @@
 package com.example.demo.model;
 
 import java.time.LocalDate;
-import java.util.List;
 
-<<<<<<< HEAD
+import java.util.List;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -37,6 +36,7 @@ import lombok.NonNull;
 
 	@OneToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE})
 	private List<Ticket> tickets;
+   }
 
 
 
