@@ -3,7 +3,6 @@ package com.example.demo.model;
 import java.time.LocalDate;
 import java.util.List;
 
-<<<<<<< HEAD
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -39,4 +38,4 @@ import lombok.NonNull;
 	private List<Ticket> tickets;
 
 
-
+   }

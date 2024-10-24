@@ -6,6 +6,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import com.example.demo.model.OrganisationTable;
 
 @EnableJpaRepositories
-public interface OrganisationRepo extends JpaRepository<OrganisationTable,Integer> {
+public interface IOrganisationRepository extends JpaRepository<OrganisationTable,Integer> {
 
 }
