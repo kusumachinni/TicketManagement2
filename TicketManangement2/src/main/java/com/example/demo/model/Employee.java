@@ -15,7 +15,6 @@ import lombok.NoArgsConstructor;
 import lombok.NonNull;
 
 @Entity
-@Table(name="EmployeeTable")
 @NoArgsConstructor
 @Data
 public class Employee {

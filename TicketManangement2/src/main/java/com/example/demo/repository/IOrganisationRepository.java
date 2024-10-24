@@ -7,5 +7,5 @@ import com.example.demo.model.OrganisationTable;
 
 @EnableJpaRepositories
 public interface IOrganisationRepository extends JpaRepository<OrganisationTable,Integer> {
-
+//
 }
