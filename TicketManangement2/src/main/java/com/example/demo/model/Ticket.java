@@ -12,7 +12,6 @@ import lombok.NonNull;
 
 @Entity
 @Data
-@Table(name="TicketTable")
 public class Ticket {
 @Id
 @GeneratedValue(strategy=GenerationType.AUTO)
